@@ -1,6 +1,8 @@
 ﻿/*TUTORIAL CONTENT*/
 
-const socket = io()
+const socket = io("localhost:3000", {
+    transports: ["websocket"]
+});
 
 let loader = document.createElement("div")
 loader.classList.add("loader")
