@@ -1,0 +1,2 @@
+# LekarnickaGame
+gaem
